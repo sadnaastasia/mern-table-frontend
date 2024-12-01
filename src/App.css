@@ -1,0 +1,15 @@
+.button {
+  border: 1px solid#88007c;
+  color: #88007c;
+  background-color: #ff8bc5;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: #ff6db6;
+  cursor: pointer;
+}
+.button:disabled {
+  background-color: #dcc0ce;
+  color: rgb(239, 232, 232);
+  border-color: white;
+}

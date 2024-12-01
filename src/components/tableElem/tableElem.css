@@ -1,0 +1,35 @@
+.row {
+  display: flex;
+}
+.cell {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ff8bc5;
+  text-align: center;
+  word-wrap: break-word;
+  color: #88007c;
+}
+.cell_twoButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 15px;
+}
+.editButton {
+  padding: 5px;
+  height: 30px;
+  width: 90px;
+  font-size: medium;
+}
+.deleteButton {
+  padding: 5px;
+  height: 30px;
+  width: 90px;
+  font-size: medium;
+}
+@media (max-width: 800px) {
+  .row {
+    width: 750px;
+  }
+}

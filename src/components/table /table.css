@@ -1,0 +1,25 @@
+.containerTable {
+  margin: 40px;
+}
+.plusButtonDiv {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.plusButton {
+  height: 50px;
+  width: 50px;
+  font-size: x-large;
+}
+.table {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.table_title {
+  background-color: #f7d5f1;
+}
+@media (max-width: 800px) {
+  .table_title {
+    width: 750px;
+  }
+}
